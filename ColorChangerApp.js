@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',      // horizontal center
     padding: 20,
   },
-});
+});console.log('ColorChangerApp');
