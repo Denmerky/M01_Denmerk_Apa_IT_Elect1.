@@ -2,7 +2,8 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import ChatScreen from './ChatScreen';
-import CommentSection from './CommentSection'; //
+import CommentSection from './CommentSection'; 
+import ChatBubble from './ChatBubble';
 
 
 
@@ -13,6 +14,7 @@ export default function App() {
       
       <ChatScreen />
       <CommentSection />
+      <ChatBubble />
  
     </SafeAreaView>
   );
