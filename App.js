@@ -1,17 +1,18 @@
-import Student from './Student';
+
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-//import ChatScreen from './ChatScreen';
-//import CommentSection from './CommentSection'; //
+import CounterApp from './CounterApp';
+import ColorChangerApp from './ColorChangerApp'; //
 
-//adjust path if in components folder
+
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
      
       
-      <Student />
+      <CounterApp />
+      <ColorChangerApp />
  
     </SafeAreaView>
   );
