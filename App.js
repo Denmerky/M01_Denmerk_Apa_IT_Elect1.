@@ -1,18 +1,21 @@
-import Student from './Student';
-import React from 'react';
-import { SafeAreaView } from 'react-native';
-//import ChatScreen from './ChatScreen';
-//import CommentSection from './CommentSection'; //
-
-//adjust path if in components folder
+import React from "react";
+import { KeyboardAvoidingView, Platform,Image,ScrollView } from "react-native";
+import ChatScreen from "./ChatScreen";
+import CommentSection from "./CommentSection";
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-     
-      
-      <Student />
- 
-    </SafeAreaView>
+    
+    <KeyboardAvoidingView
+      style={{ flex: 1 }}
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
+    >
+    
+
+      <ChatScreen />
+      <CommentSection />
+ />
+    </KeyboardAvoidingView>
+  
   );
 }

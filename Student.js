@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.js';
 
 function App() {
-  const [studentData, setStudentData] = useState('');
+  const [studentData, setStudentData] = useState(null);
   const [formData, setFormData] = useState({
     studentId: '',
     password: '',

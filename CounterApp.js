@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
     fontSize: 40,
     marginBottom: 20,
   },
-});console.log('CounterApp');
+});
