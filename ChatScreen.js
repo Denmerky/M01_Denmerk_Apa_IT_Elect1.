@@ -93,4 +93,4 @@ export default function ChatScreen() {
       </View>
     </SafeAreaView>
   );
-}
+}console.log('ChatScreen');
