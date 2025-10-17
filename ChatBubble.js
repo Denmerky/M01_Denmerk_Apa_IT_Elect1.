@@ -35,4 +35,4 @@ export default function ChatBubble({ text, isMe, avatar }) {
       </View>
     </View>
   );
-}
+}console.log('ChatBubble ChatScreen'); ChatScreen.js
